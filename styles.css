@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    justify-content: center;
+
+    background-color: #E63946;
+    
+}
+
+header {
+    align-self: center;
+    text-align: center;
+    background-color: #E63946;
+    color: #F1FAEE;
+    width: 100%;
+    height: 70px;
+}
+
+.nav {
+    flex: end;
+    width: 100%;
+    background-color: #EC9A9A;
+    height: 40px;
+}
+
+.lol {
+    height: 500px;
+    background-color: #F1FAEE;
+}
