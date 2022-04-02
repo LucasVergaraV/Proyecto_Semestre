@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    justify-content: center;
+    background-color: #E63946;
+}
+
+header {
+    align-self: center;
+    text-align: center;
+    background-color: #E63946;
+    color: #F1FAEE;
+    width: 100%;
+    height: 70px;
+}
+
+.nav {
+    flex: end;
+    width: 100%;
+    background-color: #EC9A9A;
+    height: 40px;
+    margin: 2%;
+}
+
+.lol {
+    height: 5%;
+    background-color: #F1FAEE;
+}
+
+/* css Lucas */
+.body_producto{
+    width: 100%;
+    height: auto;
+    background: #A8DADC;
+}
+
+.producto{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    background:#457B9D ;
+}
+
+.img_producto{
+    justify-content: center;
+    object-fit: contain ;
+    text-align: center;
+    width: 50%;
+    max-width: 500px;
+    margin: 5% auto; 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.img1{
+    width: 100%;
+    height: 100%;
+}
+
+.info_producto{
+    height: auto;
+    margin-bottom: 8%;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+} 
+
+.titulo_producto{
+    padding-bottom: 4%;
+}
+
+.lista_producto{
+
+}
+
+.boton_producto {
+    background-color: #E63946;
+    color: #F1FAEE;
+}
+
