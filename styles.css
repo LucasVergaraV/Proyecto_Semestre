@@ -18,9 +18,8 @@ html, body {
     padding: 0;
 }
 
-.header {
+.container-header {
     justify-content: center;
-
     background-color: #E63946;
     
 }
@@ -41,7 +40,39 @@ header {
     height: 40px;
 }
 
-.lol {
+.center {
     height: 500px;
     background-color: #F1FAEE;
+}
+
+.carousel img {
+    width: 100%;
+    height: 500px;
+}
+
+.productos-populares {
+    width: 100%;
+    height: 500px;
+    background-color: #A8DADC;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    background-color: #EC9A9A;
+    
+}
+
+.full-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 1em;
+}
+
+.nav-li {
+    padding: 0 1em;
 }
