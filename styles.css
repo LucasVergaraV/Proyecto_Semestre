@@ -46,6 +46,11 @@ header {
 }
 
 /* css Lucas */
+.bajada_nav{
+    height: 5%;
+    background-color: #F1FAEE;
+}
+
 .body_producto{
     width: 100%;
     height: auto;
@@ -86,14 +91,91 @@ header {
 
 .titulo_producto{
     padding-bottom: 4%;
+    text-align: center;
+    color: #A8DADC;
 }
 
 .lista_producto{
-
+    color: #A8DADC;
 }
 
 .boton_producto {
-    background-color: #E63946;
+    background-color: #EC9A9A;
+    font-family: 'Kaushan Script', cursive;
     color: #F1FAEE;
+    border-color: #F1FAEE;
+}
+.boton_producto:hover{
+    color: #EC9A9A;
+    background-color: #AD2B35;
+    text-decoration: none;
 }
 
+/* .boton_producto:visited{
+    text-decoration: none;
+    color: #457B9D;
+} */
+
+/* .boton_producto:link{
+    text-decoration: none;
+    color: #E63946;
+} */
+
+.boton_producto:active{
+    text-decoration: none;
+    color: #AD2B35;
+}
+
+
+/* FUENTE */
+/* font-family: 'Kaushan Script', cursive; */
+
+.fuente{
+    font-family: 'Kaushan Script', cursive;
+    font: size 10vw;
+}
+
+.checkbox_producto{
+    color: #A8DADC;
+}
+
+.bajada_footer{
+    height: 5%;
+    background-color: #457B9D;
+}
+
+footer{
+    background-color: #1B3151;
+}
+
+.contactos_producto{
+    text-decoration:none;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 3%;
+}
+
+.link_producto{
+    color: #A8DADC;
+    text-decoration: none;
+}
+
+.link_producto:hover{
+    color: #457B9D;
+    text-decoration: none;
+}
+
+/* .link_producto:visited{
+    text-decoration: none;
+    color: #457B9D;
+} */
+
+/* .link_producto:link{
+    text-decoration: none;
+    color: #E63946;
+} */
+
+.link_producto:active{
+    text-decoration: none;
+    color: #457B9D;
+}
