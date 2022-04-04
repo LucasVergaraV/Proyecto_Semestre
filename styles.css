@@ -60,11 +60,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #1d3557;
 }
 
 .navigation {
-    background-color: #EC9A9A;
-    
+    background-color: #1d3557;
 }
 
 .full-nav {
@@ -79,7 +79,9 @@ header {
 
 /* FORMULARIO */
 .formulario_subscripcion{
-    background-color: #457B9D;
+    background-color: #1d3557;
+    max-width: 100%;
+    margin: 0;  
 }
 
 .text_formulario{
@@ -101,15 +103,19 @@ header {
 }
 
 .boton_producto {
-    background-color: #EC9A9A;
-    font-family: 'Kaushan Script', cursive;
-    color: #F1FAEE;
-    border-color: #F1FAEE;
-}
-.boton_producto:hover{
-    color: #EC9A9A;
     background-color: #AD2B35;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    border-color: #F1FAEE;
+    transition: all .2s;
+    border: none;
+}
+.boton_producto:hover {
+    color: white;
     text-decoration: none;
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 6px 0px rgb(255 255 255 / 10%);
 }
 
 /* .boton_producto:visited{
@@ -132,17 +138,74 @@ header {
     font: size 10vw;
 }
 
-.accordion{
-    width: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
 .titulo_preg_frecuentes{
     margin: 5%;
     text-align: center;
+}
+
+.preguntas-frecuentes {
+    max-width: 100%;
+}
+
+.contenedor-productos {
+    display: flex;
+    background: #ad2b35;
+}
+
+.producto {
+    width: 33%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background: #d8e2eb;
+    margin: 1em;
+    border-radius: 5px;
+}
+
+.producto .producto-img {
+    height: 300px;
+    padding: 1em;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.producto .producto-button {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 4px 0px rgb(0 0 0 / 30%);
+    background: #1d3557;
+    color: white;
+    height: 30px;
+    transition: all .2s;
+}
+
+.producto .producto-button:hover {
+    background: #a72a2a;
+    transform: scale(1.2);
+}
+
+.product-paragraph {
+    font-size: 1em;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: calc(1em - 4px);
+    margin-bottom: 0;
+}
+
+.footer-section {
+    height: 64px;
+    background-color: #1d3557;
+    color: white;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
