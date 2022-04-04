@@ -76,3 +76,73 @@ header {
 .nav-li {
     padding: 0 1em;
 }
+
+/* FORMULARIO */
+.formulario_subscripcion{
+    background-color: #457B9D;
+}
+
+.text_formulario{
+    margin: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: #A8DADC;
+}
+
+.formulario{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 5%;
+}
+
+.form-control{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.boton_producto {
+    background-color: #EC9A9A;
+    font-family: 'Kaushan Script', cursive;
+    color: #F1FAEE;
+    border-color: #F1FAEE;
+}
+.boton_producto:hover{
+    color: #EC9A9A;
+    background-color: #AD2B35;
+    text-decoration: none;
+}
+
+/* .boton_producto:visited{
+    text-decoration: none;
+    color: #457B9D;
+} */
+
+/* .boton_producto:link{
+    text-decoration: none;
+    color: #E63946;
+} */
+
+.boton_producto:active{
+    text-decoration: none;
+    color: #AD2B35;
+}
+
+.fuente{
+    font-family: 'Kaushan Script', cursive;
+    font: size 10vw;
+}
+
+.accordion{
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.titulo_preg_frecuentes{
+    margin: 5%;
+    text-align: center;
+}
