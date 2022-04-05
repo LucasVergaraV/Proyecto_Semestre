@@ -7,6 +7,7 @@
 :root {
     --color-red: #E63946;
     --color-white: #FFFFFF;
+    --color-blue: #273c5a;
 }
 
 html, body {
@@ -32,7 +33,7 @@ header {
     align-self: center;
     text-align: center;
     background-color: var(--color-red);
-    color: #F1FAEE;
+    color: var(--color-white);
     width: 100%;
     height: 70px;
 }
@@ -64,18 +65,20 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1d3557;
+    background: var(--color-blue);
 }
 
 .navigation {
-    background-color: #1d3557;
+    background-color: var(--color-blue);
     height: 70px;
-    z-index: 1;
+    z-index: 4;
+    border-bottom: .5px solid var(--color-red);
+    position: fixed;
 }
 
 .logo {
     height: 70px;
-    background: #1d3557;
+    background: var(--color-blue);
     padding: 1em;
 }
 
@@ -91,7 +94,7 @@ header {
 
 /* FORMULARIO */
 .formulario_subscripcion{
-    background-color: #1d3557;
+    background-color: var(--color-blue);
     max-width: 100%;
     margin: 0;  
 }
@@ -118,7 +121,7 @@ header {
     background-color: var(--color-red);
     font-family: 'Kaushan Script', cursive;
     color: var(--color-white);
-    border-color: #F1FAEE;
+    border-color: var(--color-white);
     transition: all .2s;
     border: none;
 }
@@ -143,7 +146,6 @@ header {
 .preguntas_frecuentes {
     background-color: #A8DADC;
     flex-direction: column;
-    
     width: 100%;
     text-align: center;
     align-content: center;
@@ -162,12 +164,10 @@ header {
     margin-bottom: 5%;
     margin-left: 5%;
     margin-right: 5%;
-    
-    
 }
 
 .tit_acordion{
-    background-color: #1B3151;
+    background-color: var(--color-blue);
     color: #A8DADC;
     border-color: #A8DADC;
     opacity: 95%;
@@ -175,19 +175,19 @@ header {
 }
 
 .tit_acordion:active{
-    background-color: #1B3151;
+    background-color: var(--color-blue);
     color: #A8DADC;
     border-color: #A8DADC;
 }
 
 .tit_acordion:hover {
-    background-color: #1B3151;
+    background-color: var(--color-blue);
     color: #A8DADC;
     border-color: #A8DADC;
 }
 
 .text_acordion{
-    background-color: #1B3151;
+    background-color: var(--color-blue);
     color: #A8DADC;
     border-color: #A8DADC;
 }
@@ -238,7 +238,7 @@ header {
     border-radius: 5px;
     border: none;
     box-shadow: 0 0 4px 0px rgb(0 0 0 / 30%);
-    background: #1d3557;
+    background: var(--color-blue);
     color: var(--color-white);
     height: 30px;
     transition: all .2s;
@@ -267,7 +267,7 @@ header {
     border-radius: 5px;
     border: none;
     box-shadow: 0 0 4px 0px rgb(0 0 0 / 30%);
-    background: #1d3557;
+    background: var(--color-blue);
     color: var(--color-white);
     height: 50px;
     transition: all .2s;
@@ -275,8 +275,8 @@ header {
 
 
 .see-more .producto-button:hover {
-    background: #111F32;
-    transform: scale(1.2);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 6px 1px rgb(255 255 255 / 20%);
 }
 
 .see-more a {
@@ -291,7 +291,7 @@ header {
 
 .footer-section {
     height: 64px;
-    background-color: #1d3557;
+    background-color: var(--color-blue);
     color: var(--color-white);
     text-align: left;
     display: flex;
@@ -312,4 +312,28 @@ header {
     .desktop {
         display: none;
     }
+}
+
+.accordion-button:not(.collapsed){
+    background: var(--color-blue);
+}
+
+.preguntas_frecuentes {
+    margin: 0;
+}
+
+.carousel-container {
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 0 4px 0px rgb(0 0 0 / 30%);
+    background: #A8DADC;
+}
+
+.carousel-cont {
+    background: #A8DADC;
+    padding-top: 70px;
+}
+
+.logo {
+    border-bottom: .5px solid var(--color-red);
 }
