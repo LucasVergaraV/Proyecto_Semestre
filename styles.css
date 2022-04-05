@@ -142,14 +142,62 @@ header {
     font: size 10vw;
 }
 
+.preguntas_frecuentes {
+    background-color: #A8DADC;
+    flex-direction: column;
+    
+    width: 100%;
+    text-align: center;
+    align-content: center;
+
+}
+
 .titulo_preg_frecuentes{
+    width: 75%;
     margin: 5%;
+    align-content: center;
     text-align: center;
 }
 
-.preguntas-frecuentes {
-    max-width: 100%;
+.acordion_preguntas{
+    width: 75%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    
 }
+
+.tit_acordion{
+    background-color: #1B3151;
+    color: #A8DADC;
+    border-color: #A8DADC;
+    opacity: 95%;
+
+}
+
+.tit_acordion:active{
+    background-color: #1B3151;
+    color: #A8DADC;
+    border-color: #A8DADC;
+}
+
+.tit_acordion:hover {
+    background-color: #1B3151;
+    color: #A8DADC;
+    border-color: #A8DADC;
+}
+
+.text_acordion{
+    background-color: #1B3151;
+    color: #A8DADC;
+    border-color: #A8DADC;
+}
+
+
+
+
+
 
 .contenedor-productos {
     display: flex;
