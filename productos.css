@@ -70,7 +70,10 @@ header {
 
 .navigation {
     background-color: #1d3557;
-    
+    height: 70px;
+    z-index: 4;
+    border-bottom: .5px solid var(--color-red);
+    position: fixed;
 }
 
 .full-nav {
@@ -104,11 +107,13 @@ header {
     height: 70px;
     background: #1d3557;
     padding: 1em;
+    border-bottom: .5px solid var(--color-red);
 }
 
 .products {
     flex-wrap: wrap;
     max-width: 100%;
+    padding-top: 60px;
 }
 
 .row {
@@ -149,3 +154,8 @@ header {
     transform: scale(1.2);
     background-color: #b21224;
 }
+
+.producto-imagen {
+    height: 400px;
+}
+
