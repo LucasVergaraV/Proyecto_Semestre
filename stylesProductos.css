@@ -18,7 +18,8 @@ html, body {
     padding: 0;
 }
 
-.header {
+/* nav y header Lucas */
+/* .header {
     justify-content: center;
     background-color: #E63946;
 }
@@ -38,6 +39,27 @@ header {
     background-color: #EC9A9A;
     height: 40px;
     margin: 2%;
+} */
+.navigation {
+    background-color: #1d3557;
+    height: 70px;
+    z-index: 1;
+}
+
+.logo {
+    height: 70px;
+    background: #1d3557;
+    padding: 1em;
+}
+
+.full-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 1em;
+}
+
+.nav-li {
+    padding: 0 1em;
 }
 
 .lol {
@@ -139,21 +161,7 @@ header {
     color: #A8DADC;
 }
 
-.bajada_footer{
-    height: 5%;
-    background-color: #457B9D;
-}
 
-footer{
-    background-color: #1B3151;
-}
-
-.contactos_producto{
-    text-decoration:none;
-    margin-top: 1%;
-    margin-left: 1%;
-    margin-bottom: 3%;
-}
 
 .link_producto{
     color: #A8DADC;
@@ -179,3 +187,38 @@ footer{
     text-decoration: none;
     color: #457B9D;
 }
+
+
+/* FOOTER */
+
+.footer-text {
+    font-size: calc(1em - 4px);
+    margin-bottom: 0;
+}
+
+.footer-section {
+    height: 64px;
+    background-color: #1d3557;
+    color: var(--color-white);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer lucas */
+/* .bajada_footer{
+    height: 5%;
+    background-color: #457B9D;
+}
+
+footer{
+    background-color: #1B3151;
+}
+
+.contactos_producto{
+    text-decoration:none;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 3%;
+} */
