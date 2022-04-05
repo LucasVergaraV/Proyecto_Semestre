@@ -312,12 +312,4 @@ header {
     .desktop {
         display: none;
     }
-
-    @media screen and (max-width: 430px){
-
-    .contenedor-productos{
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-
 }
