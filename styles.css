@@ -130,16 +130,6 @@ header {
     box-shadow: 0px 0px 6px 0px rgb(255 255 255 / 10%);
 }
 
-/* .boton_producto:visited{
-    text-decoration: none;
-    color: #457B9D;
-} */
-
-/* .boton_producto:link{
-    text-decoration: none;
-    color: #E63946;
-} */
-
 .boton_producto:active{
     text-decoration: none;
     color: var(--color-red);
@@ -176,7 +166,6 @@ header {
     
 }
 
-<<<<<<< HEAD
 .tit_acordion{
     background-color: #1B3151;
     color: #A8DADC;
@@ -203,12 +192,6 @@ header {
     border-color: #A8DADC;
 }
 
-
-
-
-
-
-=======
 .titulo-contenedor-productos {
     display: flex;
     justify-content: center;
@@ -223,7 +206,6 @@ header {
     font-family: 'Kaushan Script', cursive;
 }
 
->>>>>>> 7dd7be27f9fae442768717fb6ed40345b16dec74
 .contenedor-productos {
     display: flex;
     background: var(--color-red);
@@ -339,7 +321,3 @@ header {
     }
 
 }
-
-/* @media screen and (max-width: 1024px){ */
-
-/* } */
