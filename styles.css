@@ -41,7 +41,7 @@ header {
     flex: end;
     width: 100%;
     background-color: #EC9A9A;
-    height: 40px;
+    height: 60px;
 }
 
 .center {
@@ -69,6 +69,14 @@ header {
 
 .navigation {
     background-color: #1d3557;
+    height: 70px;
+    z-index: 1;
+}
+
+.logo {
+    height: 70px;
+    background: #1d3557;
+    padding: 1em;
 }
 
 .full-nav {
@@ -151,6 +159,20 @@ header {
     max-width: 100%;
 }
 
+.titulo-contenedor-productos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: var(--color-white);
+    background-color: var(--color-red);
+    height: 5em;
+}
+
+.titulo-productos {
+    font-size: x-large;
+    font-family: 'Kaushan Script', cursive;
+}
+
 .contenedor-productos {
     display: flex;
     background: var(--color-red);
@@ -199,6 +221,36 @@ header {
     text-align: center;
 }
 
+.see-more {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-red);
+}
+
+.see-more .producto-button {
+    max-width: 100%;
+    width: 30%;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 4px 0px rgb(0 0 0 / 30%);
+    background: #1d3557;
+    color: var(--color-white);
+    height: 50px;
+    transition: all .2s;
+}
+
+
+.see-more .producto-button:hover {
+    background: #111F32;
+    transform: scale(1.2);
+}
+
+.see-more a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
 .footer-text {
     font-size: calc(1em - 4px);
     margin-bottom: 0;
@@ -214,15 +266,29 @@ header {
     justify-content: center;
 }
 
+.contenedor-productos .producto {
+    flex-wrap: wrap;
+}
+
+.products {
+    display: flex;
+    flex: wrap;
+}
+
 @media screen and (max-width: 430px){
     .desktop {
         display: none;
     }
 
-    
+    @media screen and (max-width: 430px){
+
+    .contenedor-productos{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 
 }
 
-@media screen and (max-width: 1024px){
+/* @media screen and (max-width: 1024px){ */
 
-}
+/* } */
