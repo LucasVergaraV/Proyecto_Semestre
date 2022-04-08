@@ -193,6 +193,10 @@ header {
 }
 
 .hover-button {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
     background-color: #1D3557;
     border: none;
     transition: all .3s;
