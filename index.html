@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
   <body>
+      <!--Barra de navegación-->
       <div class="desktop">
         <nav class="navbar navbar-expand-lg container-fluid navbar-dark navigation">
             <img class="logo" src="imagenes/monoprix-1.svg" alt="">
@@ -33,6 +34,23 @@
             </div>
           </nav>
         <div>
+
+            <!--Barra movil-->
+            <div class="navigation-bar-container">
+                <ul class="navigation-bar">
+                    <li class="navigation-bar-item">
+                        <a class="navigation-bar-link link-active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="navigation-bar-item">
+                        <a class="navigation-bar-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="navigation-bar-item">
+                        <a class="navigation-bar-link" href="">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <!--carrousel-->
             <div class="carousel-cont">
                 <div id="carouselExampleIndicators" class="carousel slide carousel-fade carousel-container" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -62,6 +80,8 @@
                 </div>
             </div>
         </div>
+
+        <!--Productos populares-->
         <div class="Products">
             <div class="titulo-contenedor-productos">
                 <p class="titulo-productos">Productos populares</p>
@@ -112,9 +132,10 @@
             </div>
           </div>
         </div>
+        <!--Preguntas frecuentes-->
         <div class="container-fluid">
           <div class="row preguntas_frecuentes">
-            <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="col-sm-12 col-md-12 col-lg-6 titulof">
               <h1 class="fuente titulo_preg_frecuentes">PREGUNTAS FRECUENTES</h1>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 accordion acordion_preguntas" id="accordionExample">
@@ -157,6 +178,7 @@
             </div>
         </div>
     </div>
+    <!--Parte final-->
     <footer class="footer-section">
         <p class="footer-text">Elbugs &copy; Todos los derechos reservados.</p>
     </footer>
