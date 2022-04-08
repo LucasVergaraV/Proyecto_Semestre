@@ -194,6 +194,10 @@ header {
     max-width: 100%;
 }
 
+.parrafo {
+    font-size: x-large;
+}
+
 .preguntas_frecuentes {
     display: flex;
     background-color: #A8DADC;
@@ -245,6 +249,7 @@ header {
 }
 
 .text_acordion{
+    text-align: left;
     background-color: var(--color-blue);
     color: #A8DADC;
     border-color: #A8DADC;
@@ -387,6 +392,7 @@ header {
 .logo {
     border-bottom: .5px solid var(--color-red);
 }
+
 
 @media screen and (max-width: 460px){
     .contenedor-productos {

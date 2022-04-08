@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
   <body>
+      <script>
+          const formulario = () => {
+              alert("Se ha registrado exitosamente")
+              window.location.reload()
+          }
+      </script>
       <!--Barra de navegación-->
       <div class="desktop">
         <nav class="navbar navbar-expand-lg container-fluid navbar-dark navigation">
@@ -112,7 +118,10 @@
         <div class="container-fluid">
           <div class="row formulario_subscripcion">
             <div class="col-sm-12 col-md-6 col-lg-4 text_formulario">
-              <p class="fuente">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore molestias quae laboriosam molestiae delectus aperiam a exercitationem voluptate cum cupiditate facilis vero illum tempore voluptatum, praesentium dicta corporis consequatur perspiciatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quis suscipit eos voluptate quia beatae at officia, repellendus, et quisquam aspernatur delectus maiores debitis, odio cumque. Eaque quam ipsum animi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, assumenda! Illo commodi perspiciatis nulla numquam pariatur eligendi nemo veniam est iure, consequuntur illum asperiores voluptates dicta, error quidem iste earum!</p>
+              <p class="fuente parrafo">Para ser socio de Fundación debes realizar un aporte económico mensual a nuestra causa.
+                Con tu donación podremos solventar los gastos de alimentos,
+                 atención veterinaria y todas las necesidades básicas de nuestros rescatados.</p>
+                 <p class="fuente parrafo">¿Estas listo para sumarte?</p>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4  formulario">
               <input type="text" class="fuente form-control form-control-sm" placeholder="Nombre Completo">
@@ -127,7 +136,7 @@
                 </div>
                 <input type="text" class="fuente form-control form-control-sm" placeholder="Email">
                 <input type="text" class="fuente form-control form-control-sm" placeholder="Direccion">
-                <button type="button" class="btn boton_producto">Enviar Formulario</button>
+                <button onclick="formulario()" type="button" class="btn boton_producto">Enviar Formulario</button>
               </form>
             </div>
           </div>
@@ -142,36 +151,43 @@
               <div class="accordion-item">
                 <h2 class="accordion-header texto " id="headingOne">
                   <button class="accordion-button collapsed fuente tit_acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Pregunta #1
+                    ¿Cómo comprar?
                   </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse texto_acordion_preg_frecuentes" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                   <div class="accordion-body fuente text_acordion">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima asperiores neque soluta quasi similique deleniti voluptate perferendis cupiditate enim eos. Sequi eos totam animi sint iusto sapiente, est suscipit molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, error quo, perspiciatis distinctio commodi harum deleniti debitis sit qui iure praesentium enim alias veniam neque eaque. Tempore maxime voluptatibus expedita.
-                  </div>
+                    Vaya a la Tienda. Luego seleccione el producto que desea comprar haciendo
+                     click en la imagen o en el botón agregar al carrito. Su carrito se actualizará
+                      con el producto y el valor correspondiente. Haga click en el carrito y siga las
+                       instrucciones. Una vez finalizada su compra recibirá un correo electrónico
+                        confirmando la transacción.
+                    </div>
                 </div>
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTwo">
                   <button class="accordion-button collapsed fuente tit_acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                    Pregunta #2
+                    ¿Cuáles son los medios de pago aceptados?
                   </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse texto_acordion_preg_frecuentes" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                   <div class="accordion-body fuente text_acordion">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima asperiores neque soluta quasi similique deleniti voluptate perferendis cupiditate enim eos. Sequi eos totam animi sint iusto sapiente, est suscipit molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, error quo, perspiciatis distinctio commodi harum deleniti debitis sit qui iure praesentium enim alias veniam neque eaque. Tempore maxime voluptatibus expedita.
+                    Usted puede pagar por transferencia bancaria,
+                     tarjetas de crédito, RápiPago y PagoFácil.
                   </div>
                 </div>
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingThree">
                   <button class="accordion-button collapsed fuente tit_acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                    Pregunta #3
+                    ¿Hacen envíos a todo el país?
                   </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse texto_acordion_preg_frecuentes" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                   <div class="accordion-body fuente text_acordion">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima asperiores neque soluta quasi similique deleniti voluptate perferendis cupiditate enim eos. Sequi eos totam animi sint iusto sapiente, est suscipit molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, error quo, perspiciatis distinctio commodi harum deleniti debitis sit qui iure praesentium enim alias veniam neque eaque. Tempore maxime voluptatibus expedita.
+                    Se realizan envíos a todo el país coordinando con el comprador.
+                     Los envíos se harán a través de los servicios de logística
+                      que donan las empresas aliadas a la Fundación.
                   </div>
                 </div>
               </div>
