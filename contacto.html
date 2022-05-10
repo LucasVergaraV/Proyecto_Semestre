@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="contacto.css">
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>Contactanos</title>
+</head>
+    <!-- navbar Lucas --> 
+    <header class="fuente container-fluid">
+        <a class="link" href="index.html">
+            <img class="logo" src="imagenes/monoprixBorde.png" alt="">
+        </a>
+    </header> 
+    <nav class="navbar navbar-expand-lg container-fluid navbar-dark" style="background-color: #AD2B35;">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productosPerros.html">Perros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productosGatos.html">Gatos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Donaciones</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+    <div class="lol"> 
+    </div>
+    <!-- cuerpo -->
+    <body>
+        <section class="container-fluid fondoMapa">
+            <div class="container mapa">
+                <div id="map">       
+                </div>
+                <div class="infoMapa">
+                    <img id="imgMapa" src="imagenes/Donde-Estamos.png" alt="">
+                    <div class="bottom-left fuente direccion">Encuentranos en → Av. Viana con Ecuador</div>
+                </div>
+            </div>
+        </section>
+        <div class="container-fluid tituloRedesSociales">
+            <h1 class="fuente">Redes Sociales</h1>
+        </div>
+        <div class="container-fluid fondoRedesSociales">
+            <div class="container-fluid redesSociales">
+                <div class="container redSocial">
+                    <img src="imagenes/instagramIcon.png" alt="Avatar" class="image" style="width:100%">
+                    <div class="middle">
+                        <button class="btn"><div class="text fuente"><a class="link" href="https://www.instagram.com/">INSTAGRAM</a> </div></button>
+                    </div>
+                </div>
+                <div class="container redSocial">
+                    <img src="imagenes/EmailIconn.png" alt="Avatar" class="image" style="width:100%">
+                    <div class="middle">
+                        <button class="btn"><div class="text fuente"><a class="link" href="https://www.facebook.com/">E-MAIL</a> </div></button>
+                    </div>
+                </div>
+                <div class="container redSocial">
+                    <img src="imagenes/facebookIconn.png" alt="Avatar" class="image" style="width:100%">
+                    <div class="middle">
+                        <button class="btn"><div class="text fuente"><a class="link" href="https://www.facebook.com/">FACEBOOK</a> </div></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PREGUNTAS FRECUENTES -->
+        <!-- <div class="container-fluid pregFrecuentes">
+            <div class="accordion container accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed tit_acordion" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Accordion Item #1
+                    </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed tit_acordion" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Accordion Item #2
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed tit_acordion" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Accordion Item #3
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- ----- -->
+        <div class="lol"> 
+        </div>
+        <div class="lol2"> 
+        </div>
+        <footer class="footer-section">
+            <p class="footer-text">Elbugs &copy; Todos los derechos reservados.</p>
+        </footer>
+        <!-- codigo -->
+        <link rel="stylesheet" href="contacto.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="contacto.js"></script>
+        <script type='text/javascript' src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnKhZaBXNeIC4XCDRzFDW6zeryJmY4fIQ&callback=iniciarMap"></script>
+    </body>
+</html>

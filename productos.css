@@ -4,10 +4,15 @@
     padding: 0;
 }
 
+.fuente{
+    font-family: 'Kaushan Script', cursive;
+    font: size 10vw;
+}
+
 :root {
-    --color-red: #E63946;
+    /* --color-red: #E63946;
     --color-white: #FFFFFF;
-    --color-blue: #1d3557;
+    --color-blue: #1d3557; */
 }
 
 html, body {
@@ -17,7 +22,49 @@ html, body {
     padding: 0;
 }
 
-.navigation-bar-container {
+
+/* NadVar */
+header {
+    background-color: #1d3557;
+}
+
+.navigation {
+    background-color: #1d3557;
+    height: 70px;
+    z-index: 1;
+}
+
+.logo {
+    height: 70px;
+    padding: 1em;
+}
+
+.full-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 1em;
+}
+
+.nav-li {
+    padding: 0 1em;
+}
+
+.lol {
+    height: 5%;
+    background-color: #EC9A9A;
+}
+
+.lol2 {
+    height: 5%;
+    background-color: #E63946;
+}
+/* ---------------- */
+
+
+
+
+
+/* .navigation-bar-container {
     font-family: fantasy;
     display: none;
     position: fixed;
@@ -58,7 +105,7 @@ html, body {
 
 .navigation-bar-item :hover{
     color: var(--color-red);
-}
+} */
 
 .link-active {
     color: var(--color-red);
@@ -86,12 +133,12 @@ header {
     height: 70px;
 }
 
-.nav {
+/* .nav {
     flex: end;
     width: 100%;
     background-color: #EC9A9A;
     height: 40px;
-}
+} */
 
 .center {
     max-width: 100%;
@@ -116,7 +163,7 @@ header {
     align-items: center;
 }
 
-.navigation {
+/* .navigation {
     font-family: fantasy;
     background-color: #1d3557;
     height: 70px;
@@ -134,7 +181,7 @@ header {
 
 .nav-li {
     padding: 0 1em;
-}
+} */
 
 .cards {
     display: flex;
@@ -148,19 +195,21 @@ header {
 .full-card {
     margin: 20px;
     border-radius: 10px;
+    background: #457B9D;
     box-shadow: 0px 0px 4px 1px rgb(0 0 0 / 12%);
     border: none;   
 
 }
 
-.logo {
+/* .logo {
     height: 70px;
     background: #1d3557;
     padding: 1em;
     border-bottom: .5px solid var(--color-red);
-}
+} */
 
 .products {
+    background-color: #F1FAEE;
     flex-wrap: wrap;
     max-width: 100%;
 }
@@ -176,10 +225,19 @@ header {
 .column {
     max-width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .cards img {
     padding: 3em;
+}
+
+.card-title{
+    color: #F1FAEE;
+}
+
+.card-text{
+    color: #F1FAEE;
 }
 
 .final {
@@ -225,12 +283,12 @@ header {
 
     }
 
-    .navigation {
+    /* .navigation {
         display: none;
     }
 
     .navigation-bar-container {
         display: flex;
-    }
+    } */
 }
 

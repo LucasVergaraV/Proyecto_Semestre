@@ -1,0 +1,201 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #F1FAEE;
+}
+/* NADVAR */
+header {
+    background-color: #1d3557;
+}
+
+.navigation {
+    background-color: #1d3557;
+    height: 70px;
+    z-index: 1;
+}
+
+.logo {
+    height: 70px;
+    padding: 1em;
+}
+
+.full-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 1em;
+}
+
+.nav-li {
+    padding: 0 1em;
+}
+
+.lol {
+    height: 5%;
+    background-color: #EC9A9A;
+}
+
+.lol2 {
+    height: 5%;
+    background-color: #E63946;
+}
+
+
+/* css Lucas */
+.bajada_nav{
+    height: 5%;
+    background-color: #F1FAEE;
+}
+/* ---------------------- */
+.link {
+    text-decoration: none;
+    color: #F1FAEE;
+}
+
+.link:hover {
+    color: #E63946;
+}
+
+.container-fluid {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.fondoMapa{
+    background-color: #F1FAEE;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    background-color: #1d3557;
+    margin: 5%;
+}
+
+@media (max-width: 768px){
+    .mapa{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
+
+#map{
+    width: 100%;
+    height: 500px;
+    margin: 3%;
+}
+
+.infoMapa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 5%;
+}
+
+#imgMapa{
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+}
+
+.direccion{
+    margin: 4%;
+    font-size: 25px;
+    color: #A8DADC;
+}
+
+/* REDES SOCIALES */
+.tituloRedesSociales{
+    display: flex;
+    justify-content: center;
+    background-color:  #A8DADC;
+    color: #457B9D;
+    padding-top: 3%;
+}
+
+.fondoRedesSociales{
+    background-color: #A8DADC;
+}
+.redesSociales{
+    display: flex;
+    background-color: #A8DADC;
+    max-width: 90%;
+    justify-content: space-between;
+
+}
+
+.redSocial {
+    position: relative;
+    width: 50%;
+  }
+  
+.image {
+    opacity: 1;
+    display: flex;
+    padding: 15%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+.redSocial:hover .image {
+    opacity: 0.3;
+  }
+  
+.redSocial:hover .middle {
+    opacity: 1;
+  }
+  
+.text {
+    background-color: #EC9A9A;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+
+/* FUENTE */
+/* font-family: 'Kaushan Script', cursive; */
+
+.fuente{
+    font-family: 'Kaushan Script', cursive;
+    font: size 10vw;
+}
+
+/* FOOTER */
+
+.footer-text {
+    font-size: calc(1em - 4px);
+    margin-bottom: 0;
+}
+
+.footer-section {
+    height: 64px;
+    color: #F1FAEE;
+    background-color: #1d3557;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

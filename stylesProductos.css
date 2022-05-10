@@ -18,28 +18,10 @@ html, body {
     padding: 0;
 }
 
-/* nav y header Lucas */
-/* .header {
-    justify-content: center;
-    background-color: #E63946;
-}
-
 header {
-    align-self: center;
-    text-align: center;
-    background-color: #E63946;
-    color: #F1FAEE;
-    width: 100%;
-    height: 70px;
+    background-color: #1d3557;
 }
 
-.nav {
-    flex: end;
-    width: 100%;
-    background-color: #EC9A9A;
-    height: 40px;
-    margin: 2%;
-} */
 .navigation {
     background-color: #1d3557;
     height: 70px;
@@ -48,7 +30,6 @@ header {
 
 .logo {
     height: 70px;
-    background: #1d3557;
     padding: 1em;
 }
 
@@ -79,28 +60,49 @@ header {
     background: #A8DADC;
 }
 
+.fondoProducto{
+    margin: 5%;
+}
+
 .producto{
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin: 5%;
+    padding: 3%;
     background:#457B9D ;
 }
 
 .img_producto{
+    display: flex;
     justify-content: center;
     object-fit: contain ;
-    text-align: center;
-    width: 50%;
-    max-width: 500px;
-    margin: 5% auto; 
-    margin-left: 5%;
-    margin-right: 5%;
+    text-align: center; 
+}
+
+@media (max-width: 768px){
+    .img_producto{
+        display: flex;
+        margin-left: 25%;
+        margin-right: 25%;
+        justify-content: center;
+        align-items: center;
+        max-width: 300px;
+        max-height: 300px;
+       
+    }
+    
+    .producto{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .img1{
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.imgColores{
+    width: 20px;
+    height: 20px;
 }
 
 .info_producto{

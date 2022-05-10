@@ -16,8 +16,45 @@ html, body {
     margin: 0;
     padding: 0;
 }
+/* NadVar */
+header {
+    background-color: #1d3557;
+}
 
-.navigation-bar-container {
+.navigation {
+    background-color: #1d3557;
+    height: 70px;
+    z-index: 1;
+}
+
+.logo {
+    height: 70px;
+    padding: 1em;
+}
+
+.full-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 1em;
+}
+
+.nav-li {
+    padding: 0 1em;
+}
+
+.lol {
+    height: 5%;
+    background-color: #EC9A9A;
+}
+
+.lol2 {
+    height: 5%;
+    background-color: #E63946;
+}
+
+
+/* --------------- */
+/* .navigation-bar-container {
     font-family: fantasy;
     display: none;
     width: 100%;
@@ -63,14 +100,14 @@ html, body {
 .link-active {
     color: var(--color-red);
 }
-
+*/
 .container-fluid {
     display: flex;
     width: 100%;
     margin: 0;
     padding: 0;
 }
-
+/*
 .container-header {
     justify-content: center;
     background-color: var(--color-red);
@@ -90,7 +127,7 @@ header {
     width: 100%;
     background-color: #EC9A9A;
     height: 60px;
-}
+} */
 
 .center {
     height: 500px;
@@ -388,11 +425,6 @@ header {
     background: #F1FAEE;
     padding-top: 40px;
 }
-
-.logo {
-    border-bottom: .5px solid var(--color-red);
-}
-
 
 @media screen and (max-width: 460px){
     .contenedor-productos {
