@@ -22,6 +22,10 @@ header {
     background-color: #1d3557;
 }
 
+.navbar{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
 .navigation {
     background-color: #1d3557;
     height: 70px;
@@ -57,7 +61,7 @@ header {
 .body_producto{
     width: 100%;
     height: auto;
-    background: #A8DADC;
+    background: #F1FAEE;
 }
 
 .fondoProducto{
@@ -68,6 +72,10 @@ header {
     margin: 5%;
     padding: 3%;
     background:#457B9D ;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 
 .img_producto{
@@ -107,6 +115,7 @@ header {
 
 .info_producto{
     height: auto;
+    padding-top: 10%;
     margin-bottom: 8%;
     margin-top: 10%;
     margin-left: 5%;
@@ -116,11 +125,11 @@ header {
 .titulo_producto{
     padding-bottom: 4%;
     text-align: center;
-    color: #A8DADC;
+    color: #fff;
 }
 
 .lista_producto{
-    color: #A8DADC;
+    color: #fff;
 }
 
 .boton_producto {
@@ -155,7 +164,7 @@ header {
 /* font-family: 'Kaushan Script', cursive; */
 
 .fuente{
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Montserrat', sans-serif;
     font: size 10vw;
 }
 

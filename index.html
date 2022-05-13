@@ -4,19 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Monoprix</title>
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
   <body>
-      <script>
-          const formulario = () => {
-              alert("Se ha registrado exitosamente")
-              window.location.reload()
-          }
-      </script>
-      <header class="fuente container-fluid">
+      <header class="container-fluid">
         <a class="link" href="index.html">
             <img class="logo" src="imagenes/monoprixBorde.png" alt="">
         </a>
@@ -27,7 +24,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav fuente">
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
@@ -41,7 +38,7 @@
                         <a class="nav-link" href="contacto.html">Contactos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Donaciones</a>
+                        <a class="nav-link" href="formulario.html">Suscribete</a>
                     </li>
                 </ul>
             </div>
@@ -49,45 +46,6 @@
       </nav>
     <div class="lol"> 
     </div>
-      <!--Barra de navegación
-      <div class="desktop">
-        <nav class="navbar navbar-expand-lg container-fluid navbar-dark navigation">
-            <img class="logo" src="imagenes/monoprix-1.svg" alt="">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse full-nav" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item nav-li">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                  </li>
-                  <li class="nav-item nav-li">
-                    <a class="nav-link" href="productos.html">Productos</a>
-                  </li>
-                  <li class="nav-item nav-li">
-                    <a class="nav-link" href="#">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        <div>
-
-            <div class="navigation-bar-container">
-                <ul class="navigation-bar">
-                    <li class="navigation-bar-item">
-                        <a class="navigation-bar-link link-active" href="index.html">Inicio</a>
-                    </li>
-                    <li class="navigation-bar-item">
-                        <a class="navigation-bar-link" href="productos.html">Productos</a>
-                    </li>
-                    <li class="navigation-bar-item">
-                        <a class="navigation-bar-link" href="">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-          -->
             <!--carrousel-->
             <div class="carousel-cont">
                 <div id="carouselExampleIndicators" class="carousel slide carousel-fade carousel-container" data-bs-ride="carousel">
@@ -122,61 +80,30 @@
         <!--Productos populares-->
         <div class="Products">
             <div class="titulo-contenedor-productos">
-                <p class="titulo-productos">Productos populares</p>
+                <p class="titulo-productos fuente">Productos populares</p>
             </div>
             <div class="contenedor-productos container-fluid">
                 <div class="producto">
                     <img class="producto-img" src="imagenes/productosGato/producto3.jpg">
-                    <p class="product-paragraph">Jueguete Electrico</p>
-                    <button class="producto-button">Ver producto</button>
+                    <p class="product-paragraph fuente">Jueguete Electrico</p>
+                    <button class="producto-button"><a class="link" href="productoGato3.html">Ver producto</a></button>
                 </div>
                 <div class="producto">
                     <img src="imagenes/productosPerro/Producto2.jpg" class="producto-img">
-                    <p class="product-paragraph">Esfera con cuerda</p>
-                    <button class="producto-button">Ver producto</button>
+                    <p class="product-paragraph fuente">Esfera con cuerda</p>
+                    <button class="producto-button"><a class="link" href="productoPerro2.html">Ver producto</a></button>
                 </div>
                 <div class="producto">
                     <img src="imagenes/productosPerro/Producto3.jpg" class="producto-img">
-                    <p class="product-paragraph">Helado masticable</p>
-                    <button class="producto-button">Ver producto</button>
+                    <p class="product-paragraph fuente">Helado masticable</p>
+                    <button class="producto-button "><a class="link" href="productoPerro3.html">Ver producto</a></button>
                 </div>
             </div>
-            <div class="see-more">
-                <button class="producto-button"><a href="productos.html">Ver todos los productos</a></button>
-                <a href="productos.html"></a>
-            </div>
-        </div>
-        <!-- formulario para subscribirse -->
-        <div class="container-fluid">
-          <div class="row formulario_subscripcion">
-            <div class="col-sm-12 col-md-6 col-lg-4 text_formulario">
-              <p class="fuente parrafo">Para ser socio de Fundación debes realizar un aporte económico mensual a nuestra causa.
-                Con tu donación podremos solventar los gastos de alimentos,
-                 atención veterinaria y todas las necesidades básicas de nuestros rescatados.</p>
-                 <p class="fuente parrafo">¿Estas listo para sumarte?</p>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4  formulario">
-              <input type="text" class="fuente form-control form-control-sm" placeholder="Nombre Completo">
-              <form>
-                <div class="row">
-                  <div class="col">
-                    <input type="text" class="fuente form-control form-control-sm" placeholder="RUT" name="rut">
-                  </div>
-                  <div class="col">
-                    <input type="text" class="fuente form-control form-control-sm" placeholder="Numero de contacto" name="n_contacto">
-                  </div>
-                </div>
-                <input type="text" class="fuente form-control form-control-sm" placeholder="Email">
-                <input type="text" class="fuente form-control form-control-sm" placeholder="Direccion">
-                <button onclick="formulario()" type="button" class="btn boton_producto">Enviar Formulario</button>
-              </form>
-            </div>
-          </div>
         </div>
         <!--Preguntas frecuentes-->
         <div class="container-fluid">
           <div class="row preguntas_frecuentes">
-            <div class="col-sm-12 col-md-12 col-lg-6 titulof">
+            <div class="col-sm-12 col-md-12 col-lg-6">
               <h1 class="fuente titulo_preg_frecuentes">PREGUNTAS FRECUENTES</h1>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 accordion acordion_preguntas" id="accordionExample">
@@ -228,7 +155,7 @@
     </div>
     <!--Parte final-->
     <footer class="footer-section">
-        <p class="footer-text">Elbugs &copy; Todos los derechos reservados.</p>
+        
     </footer>
     </div>
     <div class="mobile">

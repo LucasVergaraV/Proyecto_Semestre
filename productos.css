@@ -5,7 +5,7 @@
 }
 
 .fuente{
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Montserrat', sans-serif;
     font: size 10vw;
 }
 
@@ -133,12 +133,9 @@ header {
     height: 70px;
 }
 
-/* .nav {
-    flex: end;
-    width: 100%;
-    background-color: #EC9A9A;
-    height: 40px;
-} */
+.navbar{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
 
 .center {
     max-width: 100%;
@@ -186,6 +183,7 @@ header {
 .cards {
     display: flex;
     width: 100%;
+    
 }
 
 .productos-populares {
@@ -196,7 +194,7 @@ header {
     margin: 20px;
     border-radius: 10px;
     background: #457B9D;
-    box-shadow: 0px 0px 4px 1px rgb(0 0 0 / 12%);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
     border: none;   
 
 }
@@ -266,6 +264,10 @@ header {
     background-color: #b21224;
 }
 
+.card-body{
+    max-width: 550px   ;
+}
+
 .producto-imagen {
     height: 400px;
 }
@@ -290,5 +292,10 @@ header {
     .navigation-bar-container {
         display: flex;
     } */
+
+    .card-body{
+        max-width: 100%   ;
+    }
+    
 }
 
